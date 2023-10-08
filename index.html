@@ -66,11 +66,31 @@
             ><span class="M">M</span><span class="AX">AX</span>
           </h1>
           <div class="heading-img-container">
-            <img class="header-img" src="img/airpods-blue.png" alt="" />
-            <!-- <img class="header-img" src="img/airpods-red.png" alt="" />
-            <img class="header-img" src="img/airpods-green.png" alt="" />
-            <img class="header-img" src="img/airpods-black.png" alt="" />
-            <img class="header-img" src="img/airpods-white.png" alt="" /> -->
+            <img
+              class="header-img color-img-blue header-img__active color--blue"
+              src="img/airpods-blue.png"
+              alt=""
+            />
+            <img
+              class="header-img color-img-red color--red"
+              src="img/airpods-red.png"
+              alt=""
+            />
+            <img
+              class="header-img color-img-green color--green"
+              src="img/airpods-green.png"
+              alt=""
+            />
+            <img
+              class="header-img color-img-black color--black"
+              src="img/airpods-black.png"
+              alt=""
+            />
+            <img
+              class="header-img color-img-white color--white"
+              src="img/airpods-white.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -83,31 +103,27 @@
           The perfect balance between the purityof hi‑fi and the magic of
           AirPods. The ultimate personal audio experience.
         </p>
-        <ul class="color-list">
-          <!-- <li class="color-item">
-            <button class="color-btn"><img src="img/blue-small.png" alt="" /></button>
-          </li> -->
-          <li class="color-item">
-            <button class="color-btn">
-              <img src="img/green-small.png" alt="" class="color-img" />
-            </button>
-          </li>
-          <li class="color-item">
-            <button class="color-btn">
-              <img src="img/red-small.png" alt="" class="color-img" />
-            </button>
-          </li>
-          <li class="color-item">
-            <button class="color-btn">
-              <img src="img/black-small.png" alt="" class="color-img" />
-            </button>
-          </li>
-          <li class="color-item">
-            <button class="color-btn">
-              <img src="img/white-small.png" alt="" class="color-img" />
-            </button>
-          </li>
-        </ul>
+        <div class="color-list">
+          <button class="color-btn color-btn--active" data-button="color--blue">
+            <img src="img/blue-small.png" alt="" />
+          </button>
+
+          <button class="color-btn" data-button="color--green">
+            <img src="img/green-small.png" alt="" class="color-img" />
+          </button>
+
+          <button class="color-btn" data-button="color--red">
+            <img src="img/red-small.png" alt="" class="color-img" />
+          </button>
+
+          <button class="color-btn" data-button="color--black">
+            <img src="img/black-small.png" alt="" class="color-img" />
+          </button>
+
+          <button class="color-btn" data-button="color--white">
+            <img src="img/white-small.png" alt="" class="color-img" />
+          </button>
+        </div>
       </div>
     </section>
 
@@ -139,28 +155,28 @@
           <img
             src="img/side-view-blue.jpg"
             alt=""
-            class="composition-content-img"
+            class="composition-content-img header-img color-img-blue header-img__active color--blue"
           />
-          <!-- <img
+          <img
             src="img/side-view-red.jpg"
             alt=""
-            class="composition-content-img"
+            class="composition-content-img header-img color-img-red color--red"
           />
           <img
             src="img/side-view-green.jpg"
             alt=""
-            class="composition-content-img"
+            class="composition-content-img header-img color-img-green color--green"
           />
           <img
             src="img/side-view-black.jpg"
             alt=""
-            class="composition-content-img"
+            class="composition-content-img header-img color-img-black color--black"
           />
           <img
             src="img/side-view-white.jpg"
             alt=""
-            class="composition-content-img"
-          /> -->
+            class="composition-content-img header-img color-img-white color--white"
+          />
         </div>
       </div>
     </section>
@@ -173,11 +189,31 @@
           <strong style="font-weight: 700">Smart Case</strong>, AirPods Max
           enter a low-power state to save energy.
         </p>
-        <img src="img/case-blue.jpg" alt="" class="battery-img" />
-        <!-- <img src="img/case-red.jpg" alt="" class="battery-img" />
-        <img src="img/case-green.jpg" alt="" class="battery-img" />
-        <img src="img/case-black.jpg" alt="" class="battery-img" />
-        <img src="img/case-white.jpg" alt="" class="battery-img" /> -->
+        <img
+          src="img/case-blue.jpg"
+          alt=""
+          class="battery-img header-img color-img-blue header-img__active color--blue"
+        />
+        <img
+          src="img/case-red.jpg"
+          alt=""
+          class="battery-img header-img color-img-red color--red"
+        />
+        <img
+          src="img/case-green.jpg"
+          alt=""
+          class="battery-img header-img color-img-green color--green"
+        />
+        <img
+          src="img/case-black.jpg"
+          alt=""
+          class="battery-img header-img color-img-black color--black"
+        />
+        <img
+          src="img/case-white.jpg"
+          alt=""
+          class="battery-img header-img color-img-white color--white"
+        />
         <h1 class="battery-heading-down">Stayin' alive, stayin' alive.</h1>
         <h1 class="battery-number">20</h1>
         <p class="battery-description-down">
@@ -224,6 +260,7 @@
                 viewBox="0 0 25 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="footer-logo"
               >
                 <path
                   d="M13.7938 2.61067C15.8087 0.0126657 18.6099 0 18.6099 0C18.6099 0 19.0266 2.44257 17.0249 4.79554C14.8876 7.30799 12.4582 6.89687 12.4582 6.89687C12.4582 6.89687 12.002 4.92092 13.7938 2.61067ZM12.7145 8.60788C13.751 8.60788 15.6749 7.21396 18.179 7.21396C22.4893 7.21396 24.185 10.2145 24.185 10.2145C24.185 10.2145 20.8686 11.8733 20.8686 15.8983C20.8686 20.4389 25 22.0038 25 22.0038C25 22.0038 22.112 29.9559 18.2111 29.9559C16.4194 29.9559 15.0264 28.7748 13.1387 28.7748C11.2148 28.7748 9.30575 30 8.06234 30C4.50021 30.0001 0 22.4566 0 16.3929C0 10.4271 3.80913 7.29755 7.38194 7.29755C9.70459 7.29755 11.507 8.60788 12.7145 8.60788Z"
@@ -252,5 +289,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
